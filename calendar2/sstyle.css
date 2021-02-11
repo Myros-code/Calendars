@@ -9,7 +9,6 @@
   font-family: Inter;
   width: 665px;
   height: 274px;
-  margin: 0 auto;
   border-radius: 8px;
 }
 
@@ -19,6 +18,13 @@
   border-radius: 8px;
 }
 
+/* table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+} */
 .calendar-table td {
   text-align: left;
 }
@@ -48,7 +54,9 @@
   cursor: pointer;
   appearance: none;
   -moz-appearance: none;
+  /* Firefox */
   -webkit-appearance: none;
+  /* Safari and Chrome */
   padding: 0;
   border: none;
   outline: none;
@@ -66,6 +74,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  /* identical to box height */
   text-align: center;
   color: #0F142D;
 }
@@ -145,3 +154,4 @@
 .date-item.disabled {
   background: #FAFBFC;
 }
+/*# sourceMappingURL=sstyle.css.map */

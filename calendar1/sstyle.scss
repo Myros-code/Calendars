@@ -1,0 +1,135 @@
+.calendar *,
+.calendar *::after,
+.calendar *::before {
+    box-sizing: border-box;
+}
+
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar {
+    width: 370px;
+    height: 722px;
+    margin: 0 auto;
+}
+
+.timezone__block {
+    position: relative;
+}
+
+.caret {
+    position: absolute;
+    right: 7%;
+    top: 35%;
+}
+
+.timezone__select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #E7E7EA;
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 43px 14px 20px;
+    color: #6F7281;
+}
+
+.timezone__option {}
+
+.calendar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.date-info {
+    padding: 16px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F142D;
+}
+
+.month {}
+
+.year {}
+
+.date-nav {
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-nav__btn {
+    cursor: pointer;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+}
+
+.calendar-table {
+    border-collapse: collapse;
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+.calendar-table th {
+    padding: 4px 4px;
+}
+
+.day-num {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.day {
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #6F7281;
+}
+
+.time {
+    cursor: pointer;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 8px 8px;
+    text-align: center;
+    color: #0F142D;
+}
+
+.time.active {
+    background-color: #58BC82;
+    color: #FFFFFF;
+}
