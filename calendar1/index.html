@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    
+        
+    <div class="calendar">
+        
+        <div class="timezone__block calendar-timezone">
+            <i class="caret">
+                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.0372 5L10.0372 9L14.0372 5" stroke="#9FA1AB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </i>
+            <select name="Timezone" id="" class="timezone timezone__select">
+                <option class="timezone__option" value="2" selected>Europe/Athens GTM +2:00</option>
+                <option class="timezone__option" value="1"></option>
+            </select>
+        </div>
+
+        <div class="title__block calendar-title">
+
+            <div class="date-info">
+                <span class="month" id="month">February</span>
+                <span class="year" id="year">2020</span>
+            </div>
+
+            <div class="date-nav">
+
+                <button class="date-nav__btn prev">
+                    <i>
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 1L1 7L7 13" stroke="#0F142D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </i>
+                </button>
+
+                <button class="date-nav__btn next">
+                    <i>
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L7 7L1 13" stroke="#0F142D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </i>
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="calendar-table__block">
+            <table class="calendar-table" bordercolor = '#EEF1F3'
+            border="1" width = '100%' cellspacing="0" cellpadding="0" >
+                <thead>
+                    <tr>
+                        <th>
+                            <div class="day-num">4</div>
+                            <div class="day">Пн</div>
+                        </th>
+                        <th>
+                            <div class="day-num">5</div>
+                            <div class="day">Вт</div>
+                        </th>
+                        <th>    
+                            <div class="day-num">6</div>
+                            <div class="day">Ср</div>
+                        </th>
+                        <th>
+                            <div class="day-num">7</div>
+                            <div class="day">Чт</div>
+                        </th>
+                        <th>
+                            <div class="day-num">8</div>
+                            <div class="day">Пт</div>
+                        </th>
+                        <th>
+                            <div class="day-num">9</div>
+                            <div class="day">Сб</div>
+                        </th>
+                        <th>
+                            <div class="day-num">10</div>
+                            <div class="day">Нд</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                        <td class="time">10:00</td>
+                    </tr>
+                    <tr>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                        <td class="time">10:30</td>
+                    </tr>
+                    <tr>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                        <td class="time">11:00</td>
+                    </tr>
+                    <tr>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                        <td class="time">11:30</td>
+                    </tr>
+                    <tr>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+                        <td class="time">12:00</td>
+
+                    </tr>
+                    <tr>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                        <td class="time">12:30</td>
+                    </tr>
+                    <tr>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                        <td class="time">13:00</td>
+                    </tr>
+                    <tr>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+                        <td class="time">13:30</td>
+
+                    </tr>
+                    <tr>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                        <td class="time">14:00</td>
+                    </tr>
+                    <tr>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                        <td class="time">14:30</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                        <td class="time">15:00</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                        <td class="time">15:30</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                        <td class="time">16:00</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                        <td class="time">16:30</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                        <td class="time">17:00</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                        <td class="time">17:30</td>
+                    </tr>
+
+                    <tr>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                        <td class="time">18:00</td>
+                    </tr>
+
+                </tbody>
+               
+            </table>
+        </div>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
