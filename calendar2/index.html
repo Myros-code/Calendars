@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+    <div class="calendar">
+        <table class="calendar-table" bordercolor='#FFFFFF' border="1" width='100%' cellspacing="0" cellpadding="0">
+            <tbody>
+                <tr>
+                    <th class="left">
+                        <button class="date-nav__btn prev">
+                            <i>
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 1L1 7L7 13" stroke="#0F142D" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </i>
+                        </button>
+
+                        <button class="date-nav__btn next">
+                            <i>
+                                <svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 1L7 7L1 13" stroke="#0F142D" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </i>
+                        </button>
+                    </th>
+
+                    <th>
+                        <div class="day">Пн</div>
+                        <div class="date">
+                            <span class="day-num">10</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+                        <div class="day">Вт</div>
+                        <div class="date">
+                            <span class="day-num">11</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+
+                        <div class="day">Ср</div>
+                        <div class="date">
+                            <span class="day-num">12</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+
+                        <div class="day">Чт</div>
+                        <div class="date">
+                            <span class="day-num">13</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+
+                        <div class="day">Пт</div>
+                        <div class="date">
+                            <span class="day-num">14</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+
+                        <div class="day">Сб</div>
+                        <div class="date">
+                            <span class="day-num">15</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                    <th>
+                        <div class="day">Нд</div>
+                        <div class="date">
+                            <span class="day-num">16</span>
+                            <span class="month" id="month">Фев</span>
+                        </div>
+                    </th>
+
+                </tr>
+
+                <tr>
+                    <td class="day-part">
+                        <span class="day-part_name">Утро</span>
+                        <span class="day-part_time">06:00-12:00</span>
+                    </td>
+                    <td class="date-item morning"></td>
+                    <td class="date-item morning"></td>
+                    <td class="date-item morning"></td>
+                    <td class="date-item morning disabled"></td>
+                    <td class="date-item morning"></td>
+                    <td class="date-item morning"></td>
+                    <td class="date-item morning"></td>
+                </tr>
+
+                <tr>
+                    <td class="day-part">
+                        <span class="day-part_name">День</span>
+                        <span class="day-part_time">12:00-18:00</span>
+                    </td>
+                    <td class="date-item daytime"></td>
+                    <td class="date-item daytime disabled"></td>
+                    <td class="date-item daytime"></td>
+                    <td class="date-item daytime"></td>
+                    <td class="date-item daytime"></td>
+                    <td class="date-item daytime disabled"></td>
+                    <td class="date-item daytime"></td>
+
+                </tr>
+
+                <tr>
+                    <td class="day-part">
+                        <span class="day-part_name">Вечер</span>
+                        <span class="day-part_time">18:00-24:00</span>
+                    </td>
+                    <td class="date-item evening"></td>
+                    <td class="date-item evening"></td>
+                    <td class="date-item evening disabled"></td>
+                    <td class="date-item evening"></td>
+                    <td class="date-item evening"></td>
+                    <td class="date-item evening"></td>
+                    <td class="date-item evening disabled"></td>
+                </tr>
+
+                <tr>
+                    <td class="day-part">
+                        <span class="day-part_name">Ночь</span>
+                        <span class="day-part_time">24:00-06:00</span>
+                    </td>
+                    <td class="date-item night"></td>
+                    <td class="date-item night"></td>
+                    <td class="date-item night"></td>
+                    <td class="date-item night"></td>
+                    <td class="date-item night"></td>
+                    <td class="date-item night disabled"></td>
+                    <td class="date-item night"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
